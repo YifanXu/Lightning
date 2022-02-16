@@ -42,5 +42,10 @@ $("document").ready(() => {
       send()
     }
   })
+
+  $(".sendButton").click(e => {
+    console.log('send!')
+    send()
+  })
 })
 
